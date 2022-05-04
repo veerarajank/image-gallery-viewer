@@ -32,7 +32,8 @@
    
 # Demo
     
-    https://youtu.be/FrDKjiAv05U
+    ![Image gallery viewer demo](https://youtu.be/FrDKjiAv05U)
+    
     
 # Improvements still required
   
