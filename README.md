@@ -25,7 +25,9 @@
   * UI Authentication
   * UI level paging
 
-# Documentaion
+# API Documentaion
+    
+    https://github.com/veerarajank/image-gallery-viewer/blob/master/docs/API%20Documentation.pdf
 
 # Demo
 
