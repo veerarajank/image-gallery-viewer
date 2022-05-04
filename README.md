@@ -20,11 +20,6 @@
   * Node JS used for JS run time
   * Docker used for containerisation 
   
-# Improvements still required
-  
-  * UI Authentication
-  * UI level paging
-
 # API Documentaion
     
     https://github.com/veerarajank/image-gallery-viewer/blob/master/docs/API%20Documentation.pdf
@@ -36,7 +31,12 @@
     * finally, run the docker-compose up --build in command line of respective directory ( where docker-compose.yaml file resides )
    
 # Demo
-    
+
+# Improvements still required
+  
+  * UI Authentication
+  * UI level paging
+  
 # Still have questions
     reach me out @ veerarajan.karunanithi@gmail.com
         
