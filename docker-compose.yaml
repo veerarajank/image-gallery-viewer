@@ -1,0 +1,49 @@
+version: "3.5"
+networks:
+  my_network:
+    driver: bridge
+services:
+    frontend:
+      build:
+        context: ./frontend
+      environment:
+        - REACT_APP_SERVER_URL=http://localhost:4000
+      restart: always
+      ports:
+        - "3000:3000"
+      volumes:
+        - ./frontend:/frontend
+        - /frontend/node_modules
+      depends_on:
+        - backend
+      networks:
+        - my_network
+    backend:
+      build:
+        context: ./backend
+      environment:
+        - MONGO_URL=mongodb://database:27017/ImageGallery
+        - SERVER_PORT=4000
+      restart: always
+      ports:
+        - "4000:4000"
+      volumes:
+        - ./backend:/backend
+        - /backend/node_modules
+      depends_on:
+        - database
+      networks:
+            - my_network
+    database:
+        image: mongo
+        restart: always
+        container_name: mongodb
+        volumes:
+            - ./database:/data/db
+        ports:
+            - 27017:27017
+        command: mongod --noauth
+        networks:
+            - my_network
+    
+    
