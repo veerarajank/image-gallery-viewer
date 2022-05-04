@@ -1,4 +1,4 @@
-# Image gallery upload and viewer
+# Image gallery upload and viewer - MERN 
 
     Developed a solution for uploading and managing images
 
