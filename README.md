@@ -3,6 +3,8 @@
     Developed a solution for uploading and managing images                                  
 
 # About myself 
+
+    ![My portfolio](https://portfolio-veerarajan-karunanithi.netlify.app/)
     https://portfolio-veerarajan-karunanithi.netlify.app/
     
 # Acceptance Criteria
