@@ -2,7 +2,7 @@
 
     Developed a solution for uploading and managing images                                  
 
-# About me 
+# About myself 
     https://portfolio-veerarajan-karunanithi.netlify.app/
     
 # Acceptance Criteria
