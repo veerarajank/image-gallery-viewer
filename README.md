@@ -1,6 +1,6 @@
-# Image gallery upload and viewer - MERN 
+# Image gallery upload and viewer - MERN                                                                Portfolio : https://portfolio-veerarajan-karunanithi.netlify.app/
 
-    Developed a solution for uploading and managing images
+    Developed a solution for uploading and managing images                                  
 
 # Acceptance Criteria
 
