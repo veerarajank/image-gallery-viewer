@@ -4,7 +4,6 @@
 
 # About myself 
 
-    ![My portfolio](https://portfolio-veerarajan-karunanithi.netlify.app/)
     https://portfolio-veerarajan-karunanithi.netlify.app/
     
 # Acceptance Criteria
@@ -34,7 +33,7 @@
    
 # Demo
     
-    ![Image gallery viewer demo](https://youtu.be/FrDKjiAv05U)
+    https://youtu.be/FrDKjiAv05U
     
     
 # Improvements still required
